@@ -1,0 +1,26 @@
+.buttonWrapper {
+    display: inline-flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    border-radius: 0.5rem;
+    background: var(--blue-dark);
+
+    border: none;
+
+    color: var(--gray-100);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+
+    cursor: pointer;
+}
+
+
+.buttonWrapper:hover {
+    background: var(--blue);
+}

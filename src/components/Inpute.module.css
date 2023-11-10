@@ -1,0 +1,26 @@
+
+
+.input {
+    display: flex;
+    width: 28.18rem;
+    padding: 1rem;
+    align-items: center;
+    gap: 0.5rem;
+
+    border-radius: 0.5rem;
+    border: 1px solid var(--gray-700);
+    background: var(--gray-500);
+
+    color: var(--gray-100);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+}
+
+.input:focus {
+    outline: none;
+    border: 1px solid var(--purple-dark);
+}
+
