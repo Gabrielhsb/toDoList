@@ -16,8 +16,8 @@ Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 1. **Clone o Repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/todo-list-react.git
-   cd todo-list-react
+   git clone https://github.com/Gabrielhsb/toDoList.git
+   cd toDoList
    
 2. **Instale as Dependências:**
    ```bash
