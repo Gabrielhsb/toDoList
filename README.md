@@ -1,27 +1,28 @@
-# React + TypeScript + Vite
+# ToDoList App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples de ToDoList desenvolvido com React e CSS Modules.
 
-Currently, two official plugins are available:
+## Sobre
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📋 Lista de Tarefas
+- ✅ Tarefa Concluída
+- ➕ Adicionar Nova Tarefa
+- 📤 Excluir Tarefa
 
-## Expanding the ESLint configuration
+## Como Executar
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
-- Configure the top-level `parserOptions` property like this:
+1. **Clone o Repositório:**
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+   ```bash
+   git clone https://github.com/seu-usuario/todo-list-react.git
+   cd todo-list-react
+   
+2. **Instale as Dependências:**
+   ```bash
+   npm install
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. **Execute o Aplicativo:**
+   ```bash
+   npm run dev
